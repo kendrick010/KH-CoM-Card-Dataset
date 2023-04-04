@@ -32,11 +32,11 @@
 <!------------------------------------------ About The Project ---------------------------------------------------------->
 ## About The Project
 
-After finishing the Kingdom Hearts: Re:Chain of Memories and a Data Science project course, I was motivated to contribute a
-dataset of all battle cards featured in Kingdom Hearts: Re:Chain of Memories (specifcally for Sora's story mode). All card
+After finishing Kingdom Hearts: Re:Chain of Memories and a data science project-based course, I was motivated to contribute a
+dataset of my own of all battle cards featured in Kingdom Hearts: Re:Chain of Memories (specifcally for Sora's story mode). All card
 stats and descriptions will be scraped from https://www.khguides.com/.
 
-The dataset will contain battle cards, specifically attack, magic, item, summon, friend, and enemy cards. A unique combat mechanic 
+The dataset will contain battle cards, specifically attack, magic, item, friend, and enemy cards. A unique combat mechanic 
 were sleights, where stocking three cards can trigger combos depending on their prerequisites. I plan to implement scripts to 
 detect/suggest all sleights from a given deck.
 
