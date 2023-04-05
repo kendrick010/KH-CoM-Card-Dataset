@@ -60,21 +60,75 @@ class AttackCard(Card):
 
     def get_element(self):
         '''
-        Get the element of all attack card keyblades
+        Get the element type of all attack card keyblades
         '''
 
         soup = self.get_document()
         elements = soup.findAll('td', align='center', text='Element')
 
-        for tag in elements:
-            element = tag.findNext('td', align='center')
-            self.element.append(element.text.strip())
-
+        self.get_rank('element', elements)
         
+    def get_strike(self):
+        '''
+        Get the strike rank of all attack card keyblades
+        '''
 
+        soup = self.get_document()
+        strikes = soup.findAll('td', align='center', text='Strike')
 
+        self.get_rank('strike', strikes)
 
+    def get_thrust(self):
+        '''
+        Get the thrust rank of all attack card keyblades
+        '''
 
-test = AttackCard()
-test.get_element()
-print(test.element)
+        soup = self.get_document()
+        thrusts = soup.findAll('td', align='center', text='Thrust')
+
+        self.get_rank('thrust', thrusts)
+
+    def get_combo_finish(self):
+        '''
+        Get the combo finish rank of all attack card keyblades
+        '''
+
+        soup = self.get_document()
+        finishes = soup.findAll('td', align='center', text='Combo Finish')
+
+        self.get_rank('combo_finish', finishes)
+
+    def get_break_recovery(self):
+        '''
+        Get the break recovery rank of all attack card keyblades
+        '''
+
+        soup = self.get_document()
+        recoveries = soup.findAll('td', align='center', text='Break Recovery')
+
+        self.get_rank('recovery', recoveries)
+
+    def get_card_point(self):
+        '''
+        Get the card point rank of all attack card keyblades
+        '''   
+
+        soup = self.get_document()
+        card_points = soup.findAll('td', align='center', text='Required CP')
+
+        self.get_rank('card_point', card_points)
+
+    def get_rank(self, stat, tags):
+        '''
+        Looks at the adjacent tag to obtain the rank
+        '''
+
+        rankings = []
+        for i in tags:
+            rank = i.findNext('td', align='center')
+            rank = rank.text.strip()
+            rankings.append('star' if rank == '☆' else rank)
+
+        setattr(self, stat, rankings)
+
+    
