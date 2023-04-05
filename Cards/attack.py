@@ -35,7 +35,7 @@ class AttackCard(Card):
         self.recovery = []
         self.card_point = []
 
-    def get_name(self):
+    def __get_name(self):
         '''
         Get the names of all attack card keyblades
         '''
@@ -46,7 +46,7 @@ class AttackCard(Card):
         for tag in keyblades:
             self.name.append(tag.text.strip())
 
-    def get_description(self):
+    def __get_description(self):
         '''
         Default description to attack card description
         '''
@@ -58,7 +58,19 @@ class AttackCard(Card):
         
         self.description = [description] * 27
 
-    def get_element(self):
+    def __get_obtained(self):
+        '''
+        Get the obtained description of all attack card keyblades
+        '''
+
+        soup = self.get_document()
+        test = soup.findAll('td', align='center', text='Strike')
+        
+        for i in test:
+            obtained = i.find_previous('td', rowspan='6')
+            self.obtained.append(obtained.text.strip())
+
+    def __get_element(self):
         '''
         Get the element type of all attack card keyblades
         '''
@@ -66,9 +78,9 @@ class AttackCard(Card):
         soup = self.get_document()
         elements = soup.findAll('td', align='center', text='Element')
 
-        self.get_rank('element', elements)
+        self.__get_rank('element', elements)
         
-    def get_strike(self):
+    def __get_strike(self):
         '''
         Get the strike rank of all attack card keyblades
         '''
@@ -76,9 +88,9 @@ class AttackCard(Card):
         soup = self.get_document()
         strikes = soup.findAll('td', align='center', text='Strike')
 
-        self.get_rank('strike', strikes)
+        self.__get_rank('strike', strikes)
 
-    def get_thrust(self):
+    def __get_thrust(self):
         '''
         Get the thrust rank of all attack card keyblades
         '''
@@ -86,9 +98,9 @@ class AttackCard(Card):
         soup = self.get_document()
         thrusts = soup.findAll('td', align='center', text='Thrust')
 
-        self.get_rank('thrust', thrusts)
+        self.__get_rank('thrust', thrusts)
 
-    def get_combo_finish(self):
+    def __get_combo_finish(self):
         '''
         Get the combo finish rank of all attack card keyblades
         '''
@@ -96,9 +108,9 @@ class AttackCard(Card):
         soup = self.get_document()
         finishes = soup.findAll('td', align='center', text='Combo Finish')
 
-        self.get_rank('combo_finish', finishes)
+        self.__get_rank('combo_finish', finishes)
 
-    def get_break_recovery(self):
+    def __get_break_recovery(self):
         '''
         Get the break recovery rank of all attack card keyblades
         '''
@@ -106,9 +118,9 @@ class AttackCard(Card):
         soup = self.get_document()
         recoveries = soup.findAll('td', align='center', text='Break Recovery')
 
-        self.get_rank('recovery', recoveries)
+        self.__get_rank('recovery', recoveries)
 
-    def get_card_point(self):
+    def __get_card_point(self):
         '''
         Get the card point rank of all attack card keyblades
         '''   
@@ -116,9 +128,9 @@ class AttackCard(Card):
         soup = self.get_document()
         card_points = soup.findAll('td', align='center', text='Required CP')
 
-        self.get_rank('card_point', card_points)
+        self.__get_rank('card_point', card_points)
 
-    def get_rank(self, stat, tags):
+    def __get_rank(self, stat, tags):
         '''
         Looks at the adjacent tag to obtain the rank
         '''
@@ -131,4 +143,50 @@ class AttackCard(Card):
 
         setattr(self, stat, rankings)
 
-    
+    def generate_csv(self):
+        '''
+        Generate a csv file of attack card attributes
+        '''
+
+        self.__get_name()
+        self.__get_description()
+        self.__get_obtained()
+        self.__get_element()
+        self.__get_strike()
+        self.__get_thrust()
+        self.__get_combo_finish()
+        self.__get_break_recovery()
+        self.__get_card_point()
+
+        fields = ['name', 
+                  'description', 
+                  'obtained', 
+                  'element', 
+                  'strike',
+                  'thrust',
+                  'combo_finish',
+                  'recovery',
+                  'card_point']
+        data = zip(self.name, 
+                   self.description, 
+                   self.obtained, 
+                   self.element,
+                   self.strike,
+                   self.thrust,
+                   self.combo_finish,
+                   self.recovery,
+                   self.card_point)
+        
+        with open('data/attack_cards.csv', 'w') as f:
+            writer = csv.writer(f)
+            writer.writerow(fields)
+
+            for row in data:
+                writer.writerow(row)
+
+
+
+test = AttackCard()
+test.generate_csv()
+
+# add obtained

@@ -1,0 +1,109 @@
+name,description,obtained,element,strike,thrust,combo_finish,recovery,card_point
+Kingdom Key,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Default attack card,Physical,D+,D+,D+,B,star
+Three Wishes,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Agrabah,Physical,C+,D+,B,B,A
+Crabclaw,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Atlantica,Physical,C,C,B+,star,B
+Pumpkinhead,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Halloween Town,Physical,C+,C+,D+,A,A
+Fairy Harp,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Neverland,Physical,C+,C+,C,star,B
+Wishing Star,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Monstro,Physical,C,C,D+,A,A
+Spellbinder,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Find OwlCoMIn a chest at Tigger's PlaygroundRE,Lightning,D+,A,D+,A,B
+Metal Chocobo,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Olympus Coliseum - 1st Bounty,Neutral,C+,C+,B+,B,B
+Olympia,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Olympus Coliseum,Physical,C+,D+,B,A,A
+Lionheart,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Traverse Town - 1st Bounty,Fire,B,B,B,A,B
+Lady Luck,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Wonderland,Physical,C+,C+,D,B,A
+Divine Rose,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Hollow Bastion,Physical,A,D+,C,C,B
+Oathkeeper,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Talk to NaminÃ© after defeating Darkside,Physical,B,star,B+,B,C
+Oblivion,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Talk to NaminÃ© after defeating Larxene,Neutral,A,A,D,A,C
+Ultima Weapon,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Castle Oblivion - Bounty1,Physical,star,star,A,B,D
+Diamond Dust,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",11th-13th Floor - Bounty2,Ice,B+,B+,B,star,C
+One Winged Angel,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",11th-13th Floor - Bounty2,Fire,C,C,star,C,C
+Star Seeker,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Castle Oblivion - 2nd Bounty3,Physical,C,D+,B+,star,A
+Monochrome,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Castle Oblivion - 2nd Bounty4,Neutral,D+,B,B+,C,B
+Follow the Wind,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Neverland - 2nd Bounty4,Physical,C+,A,D,A,B
+Hidden Dragon,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Traverse Town - Bounty4,Physical,D+,C+,B+,A,B
+Photon Debugger,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Destiny Islands - 2nd Bounty4,Lightning,B,C+,B+,B,B
+Bond of Flame,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Halloween Town - 2nd Bounty3,Fire,star,C+,B,B,C
+Total Eclipse,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Olympus Coliseum - 2nd Bounty3,Neutral,D+,B,B+,C,B
+Midnight Roar,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Neverland - 2nd Bounty3,Physical,C+,A,D,A,B
+Maverick Flare,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Traverse Town - Bounty3,Physical,D+,C+,B+,A,B
+Two Become One,"Attack cards will usually fill the majority of your deck, as these cards deal physical 
+        (and sometimes, elemental) damage to enemies. Each attack card has unique properties that determines its 
+        effectiveness in battle.
+        ",Destiny Islands - 2nd Bounty3,Physical,B+,B+,B+,B,B
