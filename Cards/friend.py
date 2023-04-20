@@ -2,7 +2,7 @@ from card import *
 
 class FriendCard(Card):
     '''
-    Class for scraping, organizing, and filtering item cards from https://www.khguides.com/kh-com/friend-cards/.
+    Class for scraping, organizing, and filtering friend cards from https://www.khguides.com/kh-com/friend-cards/.
     There should 10 unique friend cards.
 
     Attributes

@@ -1,0 +1,60 @@
+name,ability,description,card_point
+Shadow,Incrementor,Increases the value of all cards by 1 (2 reloads).,25
+Soldier,Combo Plus,Add an extra hit to normal combos (3 reloads).,15
+Large Body,Guard,Deflect frontal physical attacks and completely nullify damage (1 reload).,40
+Red Nocturne,Fire Boost,Increase the strength of Fire abilities (1 reload).,20
+Blue Rhapsody,Blizzard Boost,Increase the strength of Blizzard abilities (1 reload).,20
+Yellow Opera,Thunder Boost,Increase the strength of Thunder abilities (1 reload).,20
+Green Requiem,Cure Boost,Increase the potency of Cure abilities (1 reload).,20
+Powerwild,Retrograde,Reverse the values of all cards. Cards with value 0 are not affected (1 reload).,30
+Bouncywild,Draw,Attract fallen cards and items for easy retrieval (5 reloads).,10
+Air Soldier,Reload Kinesis,Reload while in motion (3 reloads).,30
+Bandit,Combo Finish,Make any normal attack as strong as a finishing blow (1 reload).,30
+Fat Bandit,Back Attack,Increase damage when striking enemies from behind (2 reloads).,40
+Barrel Spider,Quickload,Reload cards instantly (3 reloads).,30
+Search Ghost,Drain,"Absorb enemy HP when striking with attack cards, but enemies will drop fewer items (1 reload).",35
+Sea Neon,Random Values,Randomize the values of cards you use (1 reload).,20
+Screwdiver,Decrementor,Decrease the values of all cards by 1 (1 reload).,15
+Aquatank,Auto-Reload,Automatically reload cards when they run out (1 reload).,30
+Wight Knight,Float,Alter the gravity to increase jumping ability (3 reloads).,15
+Gargoyle,Vanish,Become invisible and reduce your chances of being hit (1 reload).,30
+Pirate,All Zeros,Change the values of all cards to 0 (1 reload).,30
+Air Pirate,Item Bracer,Stop enemies from breaking item cards you use (3 reloads).,30
+Darkball,Cardblind,Hide the cards you hold from hostile eyes (3 reloads).This enemy card is NOT available in Sora's Tale.,25
+Defender,Protect,Decrease damage from physical attacks by the enemy. Magical attacks do normal damage (1 reload).,30
+Wyvern,Reload Lock,Reload without incrementing the reload counter (3 reloads).,20
+Wizard,Magic Boost,Forfeit summon card use to power up magic cards (1 reload).,30
+Neoshadow,Bio,Cause enemies' HP to gradually drop (1 reload).,30
+White Mushroom,Hyper Healing,Restore some HP every time you use a friend card (3 reloads).,40
+Black Fungus,Random Flush,Activate a random enemy card effect (1 reload).,40
+Creeper Plant,Leaf Bracer,Stop enemies from breaking Cure abilities you use (1 reload).,35
+Tornado Step,Reload Haste,Subtract 2 from the reload counter (1 reload).,30
+Crescendo,Summon Boost,Forfeit magic card use to power up summon cards (1 reload).,30
+Guard Armor,Wide Attack,Slightly extend the range of attack cards (30 attacks).,30
+Parasite Cage,Dispel,Break an opponent's enemy card without fail. Nothing happens if you opponent has no enemy card in play.,60
+Trickmaster,Value Break,"When you lose a card break, reduce the vlue of the enemy's card by the value of your broken card (10 breaks).",25
+Darkside,Mimic,Copy the enemy card your opponent is using. Nothing happens if your opponent has no enemy card in play.,99
+Card Soldier,Attack Haste,Increase the swing speed of attack cards (10 attacks).,55
+Hades,Berserk,"Boost the power of attack cards when low on HP (when the gauge is flashing red). Resistant to Fire, stunned by Ice (10 attacks).",40
+Jafar,Attack Bracer,Stop enemies from breaking attack cards you use (20 attacks).,65
+Oogie Boogie,Regen,Gradually restore HP. HP returns more quickly when low (10 uses).,40
+Ursula,Shell,Halve the damage from magical attacks by the enemy. Summon magic does normal damage (5 hits taken).,50
+Captain Hook,Second Chance,"Retain 1 HP after a critical hit, provided you have 2 or more HP left. Resistant to Lightning, stunned by Fire (3 uses).",35
+Dragon Maleficent,Overdrive,Sacrifice reload spead to power up attack cards (30 attacks).,70
+Riku,Sleight Lock,"Keep cards used in sleight available for reloading. Resistant to Fire, Ice, and Lightning (5 sleights).",80
+Ansem,Sleightblind,Conceal your stocked cards from opponents (10 sleights).Available in Sora's tale as a bounty in Twilight Town after completing Reverse/Rebirth.,40
+Axel,Quick Recovery,Use cards even while staggering from damage (10 hits taken).,75
+Larxene,Dash,Increase running speed (15 cards).,65
+Vexen,Auto-Life,Revive automatically when your HP reaches 0. Only a small amount of HP is restored (1 use).,60
+Marluxia,Double Sleight,"Use stocked cards and sleights twice in a row. Resistant to Fire, Ice, Lightning, and Special Attacks. Weak against physical attacks (3 sleights).",99
+Lexaeus,Warp Break,Obliterate enemies with the finishing blow of a combo with a high success rate (50 attacks).Available in Sora's tale as second bounty in Castle Oblivion after completing Reverse/Rebirth.,99
+XemnasRE,Quick Barrier,"When receiving consecutive attacks, guards beyond the second strike (3 reloads).Available in Sora's tale as second bounty in Wonderland.",65
+XigbarRE,Shot Charge,Powers up missile attacks such as Strike Raid and Fire (2 reloads).Available in Sora's tale as second bounty in Hollow Bastion.,80
+XaldinRE,Aero Guard,"Activates Aero for a set time, inflicting damage to enemies who touch it (3 hits taken).Available in Sora's tale as second bounty in Monstro.",65
+ZexionRE,Confu-Strike,Causes attacks to confuse enemies at a certain rate (50 attacks).Available in Sora's tale as second bounty in Destiny Islands.,65
+SaÃ¯xRE,Combo Boost,Boosts power with every strike with an attack card. Returns to normal when a card is broken (20 attacks).Available in Sora's tale as second bounty in Traverse Town.,80
+DemyxRE,Water Charge,"Dramatically boosts power of ice-based attacks, such as Aqua Splash and Blizzard (2 reloads).Available in Sora's tale as second bounty in Atlantica.",80
+LuxordRE,Omni Break,Breaks enemy's card no matter what the value (15 uses).Available in Sora's tale as second bounty in Agrabah.,99
+RoxasRE,Double Strike,Doubles the damage dealt by an attack card (20 attacks).Available in Sora's tale as second bounty in Twilight Town.,99
+Gold CardRE,Premium Card,Allows premium cards to be reloaded (5 reloads).Available in Sora's tale as bounty in any world after collecting all other cards.,99
+Platinum CardRE,Invincible,You will receive no damage (20 attacks).Available in Sora's tale as bounty in any world after collecting all other cards.,99
