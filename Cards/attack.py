@@ -3,7 +3,7 @@ from card import *
 class AttackCard(Card):
     '''
     Class for scraping, organizing, and filtering attack cards from https://www.khguides.com/kh-com/attack-cards/.
-    There shoudl 27 unique attack cards.
+    There should 27 unique attack cards.
 
     Attributes
     ----------
@@ -64,11 +64,11 @@ class AttackCard(Card):
         '''
 
         soup = self.get_document()
-        test = soup.findAll('td', align='center', text='Strike')
+        obtained = soup.findAll('td', align='center', text='Strike')
         
-        for i in test:
-            obtained = i.find_previous('td', rowspan='6')
-            self.obtained.append(obtained.text.strip())
+        for i in obtained:
+            i = i.find_previous('td', rowspan='6')
+            self.obtained.append(i.text.strip())
 
     def __get_element(self):
         '''
@@ -167,6 +167,7 @@ class AttackCard(Card):
                   'combo_finish',
                   'recovery',
                   'card_point']
+        
         data = zip(self.name, 
                    self.description, 
                    self.obtained, 
@@ -183,10 +184,3 @@ class AttackCard(Card):
 
             for row in data:
                 writer.writerow(row)
-
-
-
-test = AttackCard()
-test.generate_csv()
-
-# add obtained
